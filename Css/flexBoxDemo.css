@@ -1,0 +1,32 @@
+/* .one{
+    display: flex;
+    background-color:red;
+    flex-wrap: nowrap;
+    width: 100px;
+    margin: 15px;
+    text-align: center;
+    line-height: 40px;
+    flex-direction:column-reverse;
+} */
+body{
+    background-color:#bcd1bb;
+}
+.one{
+display: flex;
+height: 400px;
+width: 100%;
+flex-direction:row;
+/* align-items:center; */
+justify-content: space-around;
+
+}
+
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100px;
+    width: 100px;
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
