@@ -26,3 +26,24 @@
      background: rgb(72, 125, 87);
      height: 20vh;
    }
+
+   .navItem{
+    display: flex;
+    width: 100%;
+    margin: 25px;
+    /* border: 1px solid red; */
+}
+
+.btn {
+    /* border: 2px solid green; */
+    /* width:100%; */
+    opacity: 0.9;
+    /* background: transparent; */
+    border: 1px solid #746d6d;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
+
+button:hover{
+    background-color: aquamarine;
+}
